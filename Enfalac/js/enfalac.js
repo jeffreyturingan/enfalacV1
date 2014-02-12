@@ -30,7 +30,7 @@
 		
 	
 	
-	$('#container').on('swipedown', function( event ) {location.reload(); });
+	/*$('#container').on('swipedown', function( event ) {location.reload(); });*/
 	
 
 		
