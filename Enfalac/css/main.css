@@ -9,8 +9,121 @@ License:      | GNU General Public License v2.0
 License URI:  | http://www.gnu.org/licenses/gpl-2.0.html
 ------------------------------------------------------------------------------------------------*/
 
-body { margin: 0;padding: 0!important;width: 100%;height: 100%;font-family:Arial, Helvetica, sans-serif ;font-size: 12px; background-color: #863174;overflow: hidden}
+body { margin: -20px 0 0;padding: 0!important;width: 100%;height: 100%;font-family:Arial, Helvetica, sans-serif ;font-size: 12px; background-color: #863174;overflow: hidden}
 .mainwrapper { min-width: 1024px;width: 100%; height: 708px; position: relative; margin: 0 auto; background: none}
+.content {background: #863174 url('images/bg.jpg') left top repeat-x;min-width: 1024px!important;margin: 0 auto; min-height: 768px; max-height: 768px} 
+.hidden { display: none}
+a { cursor: pointer }
 
-.content {background-color: #863174!important} 
+footer { display: block; height: 79px; position: absolute;bottom: 0; width: 1024px; background: url('images/footer.png');z-index: 20 }
+
+.slidebox { width: 1024px;height: 768px; margin: 0 auto; position: relative;text-align: center}
+
+#slide0 img { position: absolute;left: 50%;top: 50%;margin-left:-161px; margin-top: -243px }
+
+
+.slide1txt { margin-top: 33px;display: none}
+.baby1 { display: block;width: 152px;height: 182px; position: absolute; left: 796px;top: 409px;z-index: 10}
+.baby1t { display: none;width: 159px;height: 140px; position: absolute; left: 762px;top: 269px;z-index: 2}
+
+.baby2 { display: block;width: 143px;height: 177px; position: absolute; left: 540px;top: 192px;z-index: 10}
+.baby2t { display: none;width: 209px;height: 156px; position: absolute; left:661px;top: 104px;z-index: 2}
+
+.baby3 { display: block;width: 148px;height: 189px; position: absolute; left: 328px;top: 145px;z-index: 10}
+.baby3t { display: none;width: 160px;height: 113px; position: absolute; left: 173px;top: 97px;z-index:2}
+
+.baby4 { display: block;width: 149px;height: 192px; position: absolute; left: 414px;top: 407px;z-index: 10}
+.baby4t { display: none;width: 119px;height: 135px; position: absolute; left: 579px;top: 388px;z-index:2}
+
+.baby5 { display: block;width: 163px;height: 190px; position: absolute; left: 80px;top: 410px;z-index: 10}
+.baby5t { display: none;width: 211px;height: 135px; position: absolute; left: 137px;top: 339px;z-index: 2}
+
+
+
+#slide2 { background: url('images/slide2.jpg') center bottom no-repeat!important}
+.pulsate1 { display: none;width: 24px; height: 23px; position: absolute;left: 745px ;top: 255px}
+.pulsate2 { display: none;width: 24px; height: 23px; position: absolute;left: 712px ;top: 306px}
+.pulsate3 { display: none;width: 24px; height: 23px; position: absolute;left: 737px ;top: 458px}
+
+.s2a { display: block;width:0px /*696px*/; height: 107px; position: absolute;right: 265px ;top: 162px; overflow: hidden;background: url('images/s2a.png') right top no-repeat}
+.s2b { display: block;width:0px /*649px*/; height: 104px; position: absolute;right: 312px ;top: 310px; overflow: hidden;background: url('images/s2b.png') right top no-repeat}
+.s2c { display: block;width:0px /*676px*/; height: 104px; position: absolute;right: 285px ;top: 456px; overflow: hidden;background: url('images/s2c.png') right top no-repeat}
+
+#slide3 { background: url('images/slide3.jpg') center bottom no-repeat!important}
+#slide4 { background: url('images/slide4.jpg') center bottom no-repeat!important}
+.videobox { width: 1024px;height: 768px; position: absolute;left: 0;top: 0;background: #000;display: none;z-index:10}
+.close { display: block;width: auto;height: 30px;line-height: 30px;font-size: 15px;z-index: 19; padding: 0 10px; background: #fff; color: #000;position: absolute;right: 10px;top: 10px}
+
+
+#slide5 { background: url('images/slide5.jpg') center bottom no-repeat!important}
+#slide6 { background: url('images/slide6.jpg') center bottom no-repeat!important}
+
+
+.slide7txt { position: absolute;left: 165px;top: 224px;display: none}
+.stomach1 { position: absolute;width: 264px;height: 243px; left:370px;top: 429px;line-height: 243px;text-align: center }
+.stomach1 img { display: inline-block;width: 0;height: auto}
+
+.slide8txt { position: absolute;left: 212px;top: 114px;display: none}
+.stomach2 { width: 480px; height: 421px; position: absolute; left: 239px;top:220px;display: block}
+.stomach2 img { display: none}
+
+
+#slide9 { background: url('images/slide9.jpg') center bottom no-repeat!important}
+.slide9txt1 {left:65px;top: 139px;position: absolute;display: block; width:0px; height: 23px;background: url('images/slide9txt1.png') left top}
+.slide9txt2 {left:65px;top: 171px;position: absolute; display: none}
+.slide9txt3 {left:272px;top: 475px; position: absolute; display: none}
+.slide9atxt {left:88px;top: 390px ;position: absolute; display: none}
+
+.arrow1 { left:121px ;top: 160px /*229*/; position: absolute; display: none}
+.arrow2 { left:333px ;top: 160px ; position: absolute; display: none}
+.arrow3 { left:551px ;top: 160px ; position: absolute; display: none}
+.arrow4 { left:775px ;top: 160px ; position: absolute; display: none}
+
+#slide10 { background: url('images/slide10.jpg') center bottom no-repeat!important}
+.slide10txt1 { position: absolute; display: block; width: 617px;height: 0px/*44px*/; background: url('images/slide10txt1.png') left top;left:204px; top: 89px }
+#slide10c1 { position: absolute; display: block; width: 260px;height: 0px /*469px*/; background: url('images/slide10c1.png') left top;left:217px; top: 257px }
+#slide10c2 { position: absolute; display: block; width: 45px;height: 0px/* 427px*/; background: url('images/slide10c2.png') left top;left:548px; top: 262px }
+.slide10c3 { position: absolute; left:715px ;top:262px ; display: none}
+.slide10c4 { position: absolute; left:870px ;top:262px ; display: none}
+
+#slide11 { background: url('images/slide11.jpg') center bottom no-repeat!important}
+.slide11txt1 { display: none; position: absolute;left:98px;top: 130px /*167px*/}
+.slide11c1 {display: none; position: absolute;left: 101px;top:260px /*232px*/}
+.slide11c2 {display: none; position: absolute;left: 278px;top:260px /*198px*/}
+.slide11c3 {display: none; position: absolute;left: /*99px*/-100%;top: 479px/*479px*/}
+.slide11c4 {display: none; position: absolute;left:100% /*556px*/;top: 143px}
+
+
+#slide12 {background: url('images/slide12.jpg') center bottom no-repeat!important}
+
+.vidz { width: 1024px;height: 700px;margin-top: 68px;overflow: hidden;position: relative}
+
+#container { display: none}
+
+/*
+@media screen and (max-width:768px ) {
+	#container { display: none}
+} 
+@media screen and (min-width:1025px ) {
+	#container { display: none}
+} 
+*/
+
+@media screen and (width:1024px ) {
+	#container { display: block}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
