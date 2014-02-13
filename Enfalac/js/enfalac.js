@@ -61,12 +61,12 @@
 		});*/
 	}	
 	
-	
+	$('.pulsate1,.pulsate2,.pulsate3').show();
+	$('.s2b').css({width: '649px'});
+	$('.s2c').css({width: '676px'});
+	$('.s2a').css({width: '696px'});
 	function slide2() {
-		$('.pulsate1,.pulsate2,.pulsate3').show();
-		$('.s2b').animate({width: '649px'},500);
-		$('.s2c').animate({width: '676px'},500);
-		$('.s2a').animate({width: '696px'},500);
+		
 		/*$('.pulsate1,.pulsate2,.pulsate3').delay(1400).fadeIn().effect("pulsate",{times:3},400,function() {
 			$('.s2b').animate({width: '649px'},500);
 			$('.s2c').animate({width: '676px'},500);
@@ -104,7 +104,7 @@
 		$('.slide10txt1').css({height: '44px'});
 		$('#slide10c1').css({height: '469px'});
 		$('#slide10c2').css({height: '427px'});
-		$('.slide10c2,.slide10c3,.slide10c4').delay(1000).fadeIn();
+		$('.slide10c2,.slide10c3,.slide10c4').delay(1500).fadeIn(800);
 
 		/*$('.slide10txt1').delay(1400).animate({height: '44px'},400,function() {
 			$('#slide10c1').delay(400).animate({height: '469px'},4000,function() {
@@ -116,11 +116,11 @@
 	}
 	
 	function slide11() {
-		$('.slide11txt1').delay(400).fadeIn().animate({top: '167px'},400);
-		$('.slide11c1').delay(400).fadeIn().animate({top: '232px'},400);
-		$('.slide11c2').delay(400).fadeIn().animate({top: '198px'},400);
-		$('.slide11c3').delay(400).fadeIn().animate({left: '99px'},400);
-		$('.slide11c4').delay(400).fadeIn().animate({left: '556px'},400);
+		$('.slide11txt1').delay(800).fadeIn().animate({top: '167px'},400);
+		$('.slide11c1').delay(800).fadeIn().animate({top: '232px'},400);
+		$('.slide11c2').delay(800).fadeIn().animate({top: '198px'},400);
+		$('.slide11c3').delay(800).fadeIn().animate({left: '99px'},400);
+		$('.slide11c4').delay(800).fadeIn().animate({left: '556px'},400);
 		/*$('.slide11txt1').delay(1400).fadeIn(400).animate({top: '167px'},400,function() {
 			$('.slide11c1').delay(400).fadeIn().animate({top: '232px'},400,function() {
 				$('.slide11c2').delay(400).fadeIn().animate({top: '198px'},400,function() {
