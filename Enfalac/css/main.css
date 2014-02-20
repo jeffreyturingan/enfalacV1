@@ -20,7 +20,7 @@ footer { display: block; height: 79px; position: absolute;bottom: 0; width: 1024
 .slidebox { width: 1024px;height: 768px; margin: 0 auto; position: relative;text-align: center}
 
 #slide0 img { position: absolute;left: 50%;top: 50%;margin-left:-161px; margin-top: -243px }
-
+#slide1 { background: url('images/slide1.jpg') left top}
 
 .slide1txt { margin-top: 33px;display: none}
 .baby1 { display: block;width: 152px;height: 182px; position: absolute; left: 796px;top: 409px;z-index: 10}
@@ -40,7 +40,7 @@ footer { display: block; height: 79px; position: absolute;bottom: 0; width: 1024
 
 
 
-#slide2 { background: url('images/slide2.jpg') center bottom no-repeat!important}
+#slide2 { background: url('images/slide2b.jpg') center bottom no-repeat!important}
 .pulsate1 { display: none;width: 24px; height: 23px; position: absolute;left: 745px ;top: 255px}
 .pulsate2 { display: none;width: 24px; height: 23px; position: absolute;left: 712px ;top: 306px}
 .pulsate3 { display: none;width: 24px; height: 23px; position: absolute;left: 737px ;top: 458px}
@@ -52,7 +52,7 @@ footer { display: block; height: 79px; position: absolute;bottom: 0; width: 1024
 #slide3 { background: url('images/slide3.jpg') center bottom no-repeat!important}
 #slide4 { background: url('images/slide4.jpg') center bottom no-repeat!important}
 .videobox { width: 1024px;height: 768px; position: absolute;left: 0;top: 0;background: #000;display: none;z-index:10}
-.close { display: block;width: auto;height: 30px;line-height: 30px;font-size: 15px;z-index: 19; padding: 0 10px; background: #fff; color: #000;position: absolute;right: 10px;top: 10px}
+.close { display: block;width: auto;height: 30px;line-height: 30px;font-size: 15px;z-index: 19; padding: 0 10px; background: #fff; color: #000;position: absolute;right: 10px;top: 30px}
 
 
 #slide5 { background: url('images/slide5.jpg') center bottom no-repeat!important}
@@ -98,8 +98,8 @@ footer { display: block; height: 79px; position: absolute;bottom: 0; width: 1024
 
 .vidz { width: 1024px;height: 700px;margin-top: 68px;overflow: hidden;position: relative}
 
-#container { display: none}
-
+/*#container { display: none}
+*/
 /*
 @media screen and (max-width:768px ) {
 	#container { display: none}
@@ -109,14 +109,14 @@ footer { display: block; height: 79px; position: absolute;bottom: 0; width: 1024
 } 
 */
 
-@media screen and (width:1024px ) {
+/*@media screen and (width:1024px ) {
 	#container { display: block}
 } 
+*/
 
 
-
-
-
+.video1btn,.video2btn,.video3btn { display: block;width: 500px;height: 500px; position: absolute;left: 50%;top: 50%;margin-top: -250px; margin-left: -250px}
+.homeBtn { display: block;width: 50px;height: 50px;z-index: 99999; position: fixed;left:10px;top: 10px;background: url('images/home.png') left top}
 
 
 
