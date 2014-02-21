@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>a2dce25e-e597-4b43-8f4b-37fd777e73af</ProjectGuid>
     <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
-    <AppIdentifier>com.telerik.Enfalac</AppIdentifier>
+    <AppIdentifier>com.meadjohnson.gentlease</AppIdentifier>
     <ProjectName>Enfalac</ProjectName>
     <IsRunnable>true</IsRunnable>
     <FrameworkVersion>3.2.0</FrameworkVersion>
@@ -12,8 +12,8 @@
     <DeviceOrientations>Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Hidden</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
-    <BundleVersion>1.0.1</BundleVersion>
-    <iOSDisplayName>Gentle Relief</iOSDisplayName>
+    <BundleVersion>1.1</BundleVersion>
+    <iOSDisplayName>Gentlease v1.1</iOSDisplayName>
     <iOSDeviceFamily>2</iOSDeviceFamily>
     <iOSBackgroundMode>audio</iOSBackgroundMode>
     <AndroidVersionCode>1</AndroidVersionCode>
