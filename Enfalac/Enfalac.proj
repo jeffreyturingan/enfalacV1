@@ -12,8 +12,8 @@
     <DeviceOrientations>Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Hidden</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
-    <BundleVersion>1.1</BundleVersion>
-    <iOSDisplayName>Gentlease v1.1</iOSDisplayName>
+    <BundleVersion>1.2</BundleVersion>
+    <iOSDisplayName>Gentlease v1.2</iOSDisplayName>
     <iOSDeviceFamily>2</iOSDeviceFamily>
     <iOSBackgroundMode>audio</iOSBackgroundMode>
     <AndroidVersionCode>1</AndroidVersionCode>
